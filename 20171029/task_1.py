@@ -3,8 +3,8 @@
 task 1
 """
 
+num=input("please input integer:")
 while True:
-    num=input("please input integer:")
     if num==int(num):
         if num%2==0:
             print "it is oushu"
