@@ -1,10 +1,10 @@
 #!/bin/sh
 i=1
-num=$i
-while [ $i -lt 98 ];
+num=0
+while [ $i -lt 100 ];
 do
-	let i=i+2
 	let num=num+i
+	let i=i+2
 done
 sum=$num
 	echo "sum=$sum"
