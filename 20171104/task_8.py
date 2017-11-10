@@ -31,12 +31,12 @@ def max(s,n):#求工资的顺序，s代表工资列表，n代表第几位工资
         if j==int(n):
             return m
 
-max=max(s,1)
-print "工资最高是", max
+zuida=max(s,1)
+print "工资最高是", zuida
 num=len(s)
 print "员工数量为", num
-#min=max(s,100)     为啥第二次没法调用这个函数了？
-#print "工资最低是", min
+zuixiao=max(s,100)    # 为啥第二次没法调用这个函数了？
+print "工资最低是", zuixiao
 
 import copy
 y=copy.deepcopy(s)
@@ -54,3 +54,5 @@ for i in range(0,len(s)):
 if j==0:
     print "没有员工工资一样"
 
+dier=max(s,2)
+print "第二高工资是",dier
