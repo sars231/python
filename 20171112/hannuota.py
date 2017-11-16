@@ -7,7 +7,7 @@
 
 def hnt(n,A,B,C):
     if n==1:
-        print A,"-->",B
+        print A,"-->",C
         return
     else:
         hnt(n-1,A,C,B)
