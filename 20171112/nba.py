@@ -52,3 +52,4 @@ for l in fd:
         qiudui2=l.split(",")[1]
 print "投三分最多的球队是%s,比赛了%d场，共投%5.2f个" % (qiudui2,n,mx3)
 
+fd.close()
